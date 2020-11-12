@@ -27,6 +27,8 @@
 		76A04FF524AC7D3D00B07D8C /* UIColor+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A04FF424AC7D3D00B07D8C /* UIColor+Util.m */; };
 		76C06066253F0EAF00075721 /* TSURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C06065253F0EAF00075721 /* TSURLProtocol.m */; };
 		76C0606B2541C0CF00075721 /* NSURLSessionConfiguration+TSNet.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C0606A2541C0CF00075721 /* NSURLSessionConfiguration+TSNet.m */; };
+		76E07B5F254B025A004B689B /* TSURLNetInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E07B5E254B025A004B689B /* TSURLNetInfoModel.m */; };
+		76E07B63254C3CAB004B689B /* TSURLMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E07B62254C3CAB004B689B /* TSURLMonitor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +68,10 @@
 		76C06065253F0EAF00075721 /* TSURLProtocol.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSURLProtocol.m; sourceTree = "<group>"; };
 		76C060692541C0CF00075721 /* NSURLSessionConfiguration+TSNet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSURLSessionConfiguration+TSNet.h"; sourceTree = "<group>"; };
 		76C0606A2541C0CF00075721 /* NSURLSessionConfiguration+TSNet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSURLSessionConfiguration+TSNet.m"; sourceTree = "<group>"; };
+		76E07B5D254B025A004B689B /* TSURLNetInfoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSURLNetInfoModel.h; sourceTree = "<group>"; };
+		76E07B5E254B025A004B689B /* TSURLNetInfoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSURLNetInfoModel.m; sourceTree = "<group>"; };
+		76E07B61254C3CAB004B689B /* TSURLMonitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSURLMonitor.h; sourceTree = "<group>"; };
+		76E07B62254C3CAB004B689B /* TSURLMonitor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSURLMonitor.m; sourceTree = "<group>"; };
 		885596A37CA996246C1AF016 /* Pods_iOSDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B84282CF2A7D14742114ADE3 /* Pods-iOSDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSDemo.debug.xcconfig"; path = "Target Support Files/Pods-iOSDemo/Pods-iOSDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		C1EAACD5B1CEFE01055BDABB /* Pods-iOSDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSDemo.release.xcconfig"; path = "Target Support Files/Pods-iOSDemo/Pods-iOSDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -179,6 +185,10 @@
 				76C06065253F0EAF00075721 /* TSURLProtocol.m */,
 				76C060692541C0CF00075721 /* NSURLSessionConfiguration+TSNet.h */,
 				76C0606A2541C0CF00075721 /* NSURLSessionConfiguration+TSNet.m */,
+				76E07B5D254B025A004B689B /* TSURLNetInfoModel.h */,
+				76E07B5E254B025A004B689B /* TSURLNetInfoModel.m */,
+				76E07B61254C3CAB004B689B /* TSURLMonitor.h */,
+				76E07B62254C3CAB004B689B /* TSURLMonitor.m */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -320,8 +330,10 @@
 				767AE977247E8E5E000F76F8 /* AppDelegate.m in Sources */,
 				76609C1A2510F2F10038E4BA /* TSApmVC.m in Sources */,
 				763BCD6024A197B400F5700E /* UIImage+Util.m in Sources */,
+				76E07B5F254B025A004B689B /* TSURLNetInfoModel.m in Sources */,
 				76609C0E251091A30038E4BA /* NSObject+Swizzle.m in Sources */,
 				767AE988247E8E63000F76F8 /* main.m in Sources */,
+				76E07B63254C3CAB004B689B /* TSURLMonitor.m in Sources */,
 				761AF2B124B89922009B774E /* PreviewUrlView.m in Sources */,
 				767AE97A247E8E5E000F76F8 /* SceneDelegate.m in Sources */,
 				76C06066253F0EAF00075721 /* TSURLProtocol.m in Sources */,

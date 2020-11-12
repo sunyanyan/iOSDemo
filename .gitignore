@@ -1,0 +1,24 @@
+# xcode usr data files
+
+iOSDemo.xcworkspace/xcuserdata/*
+iOSDemo.xcodeproj/xcuserdata/*
+
+# format commit files
+node_modules/*
+package-lock.json
+package.json
+commitlint.config.js
+
+# .DS_Store file
+.DS_Store
+*/.DS_Store
+.DS_Store
+
+# pod about 
+Podfile.local
+Podfile.lock
+Pods
+Pods/*
+Pods/Manifest.lock
+Pods/**/*
+Pods/Pods.xcodeproj/xcuserdata/*

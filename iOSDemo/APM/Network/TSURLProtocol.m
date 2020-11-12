@@ -7,6 +7,7 @@
 //
 
 #import "TSURLProtocol.h"
+#import "NSURLSessionConfiguration+TSNet.h"
 
 #define kTSURLRequestKey @"kTSURLRequestKey"
 /**
